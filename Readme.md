@@ -4,6 +4,8 @@ The goal of this sample to is get started with redux.
 
 We will get as starting point an application that displays a list of github members that
 belongs to an organization (in the starting excercise is hardcoded to _lemoncode_), and 
+then add an input that will let the user change the organization name and query the 
+members by clicking on the _load_ button.
 
 # Excercise
 
