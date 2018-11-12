@@ -10,7 +10,7 @@ export const memberRequestCompleted = (members: MemberEntity[]) => {
 }
 
 export const memberRequest = () => (dispatcher) => {
-  const promise = memberAPI.getAllMembers();
+  const promise = memberAPI.getAllMembers('lemoncode');
 
   promise.then(
     (data) => dispatcher(memberRequestCompleted(data))

@@ -3,8 +3,8 @@ import {MemberEntity, createDefaultMemberEntity } from '../model/member';
 class MemberAPI {
 
   // Just return a copy of the mock data
-  getAllMembers() : Promise<MemberEntity[]> {
-    const gitHubMembersUrl : string = 'https://api.github.com/orgs/lemoncode/members';
+  getAllMembers(organizationName : string) : Promise<MemberEntity[]> {
+    const gitHubMembersUrl : string = `https://api.github.com/orgs/${organizationName}/members`;
 
     return fetch(gitHubMembersUrl)
     .then((response) => this.checkStatus(response))
