@@ -43,3 +43,7 @@ orgnization he wants, hit ok and display the list of members for that organizati
     - Create the updateFilterCallback plus filter property in the memberComponent area.
     - Update the redux _connect_ entry in the container.
   
+# About Lemoncode
+
+We are a team of long-term experienced freelance developers, established as a group in 2010.
+We specialize in Front End technologies and .NET. [Click here](http://lemoncode.net/services/en/#en-home) to get more info about us. 
