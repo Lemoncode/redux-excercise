@@ -10,7 +10,7 @@ indiquemos.
 
 Este ejemplo ya viene con la infraestructura de Redux configurada.
 
-# Excercise
+# Ejercicio
 
 - Arranca con el proyecto que se encuentra en la carpeta _00_start_.
 
