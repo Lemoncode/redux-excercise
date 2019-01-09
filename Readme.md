@@ -42,7 +42,15 @@ orgnization he wants, hit ok and display the list of members for that organizati
     - Add the new reducer to the combinereducers area.
     - Create the updateFilterCallback plus filter property in the memberComponent area.
     - Update the redux _connect_ entry in the container.
-  
+
+# Optional items
+
+If you want to play more with React here you have some proposals to enhance this excercise:
+
+- Add material ui support, display data in cards or a table.
+- Add paging (you will need to update UI, plus client rest api).
+- Click on a given member and navigate to a details page where you can read the details of that member (you will need to find out the github api endpoint to retrieve that info).
+
 # About Lemoncode
 
 We are a team of long-term experienced freelance developers, established as a group in 2010.
